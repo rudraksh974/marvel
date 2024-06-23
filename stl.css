@@ -1,0 +1,117 @@
+#header {
+    background-color: black;
+    color: white;
+    box-decoration-break: clone;
+    height: 60px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#header start{
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+#header middle{
+    padding-left: 50px;
+}    
+
+#header start{
+    justify-content: flex-end;
+}
+#head2 {
+    background-color: black;
+    color: azure;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#main{
+   background-color: rgb(223, 45, 45);
+   height: 400px;
+   display: flex;
+   position: relative;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+#main img{
+    height: 250px;
+}
+#main2 {
+    height:200px ;
+    padding-top: 20px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+
+.img3 {
+    height: 100px;
+    width: 60px;
+    flex: 33.33%;
+    padding: 60px;
+    padding-top: 10px;
+}
+#i {
+    display: flex;
+    font-size: medium;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+}
+.name {
+    flex: 33.33%;
+    padding: 60px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+#main3 {
+    height:200px ;
+    padding-top: 10px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+
+.img4 {
+    height: 100px;
+    width: 60px;
+    flex: 33.33%;
+    padding: 60px;
+    padding-top: 2px;
+}
+#i2 {
+    display: flex;
+    font-size: medium;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+}
+.name2 {
+    flex: 33.33%;
+    padding: 60px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+#footer {
+    background-color: black;
+    color: white;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
